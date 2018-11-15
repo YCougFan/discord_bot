@@ -11,7 +11,6 @@ client.on('ready', () => {
         guild.channels.forEach((channel) => {
             console.log(` - ${channel.name} ${channel.type} ${channel.id}`)
         })
-        //General Channel ID 512298809779421206
     })
     let generalChannel = client.channels.get("channel ID goes here")
     const attachment = new Discord.Attachment("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fpearlsofprofundity.files.wordpress.com%2F2013%2F02%2Ffamily-tree-with-apple.jpg&f=1")
