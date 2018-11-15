@@ -13,7 +13,7 @@ client.on('ready', () => {
         })
         //General Channel ID 512298809779421206
     })
-    let generalChannel = client.channels.get("512298809779421206")
+    let generalChannel = client.channels.get("bot token goes here")
     const attachment = new Discord.Attachment("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fpearlsofprofundity.files.wordpress.com%2F2013%2F02%2Ffamily-tree-with-apple.jpg&f=1")
     generalChannel.send(attachment)
 })
